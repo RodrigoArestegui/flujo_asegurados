@@ -6,6 +6,8 @@ archivo_txt = 'Claro_Peru_Asegurados_20022021234238.txt'
 try:
     # Leer el archivo TXT
     data = pd.read_csv(archivo_txt, delimiter='|')
+    "pongo cualquier cosa"
+    "hola mundo"
     
     # Guardar los datos en un archivo CSV temporal
     archivo_csv = 'clientes.csv'
